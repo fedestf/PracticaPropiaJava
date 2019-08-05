@@ -1,0 +1,14 @@
+
+public class Cadenas {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String nombre="Federico"; //char va en comilla simple ''
+		
+		System.out.println(nombre);
+		
+		System.out.println("el nombre tiene "+nombre.length()+" letras");
+	}
+
+}
