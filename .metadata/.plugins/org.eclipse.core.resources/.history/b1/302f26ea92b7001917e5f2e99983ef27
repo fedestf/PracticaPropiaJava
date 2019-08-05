@@ -1,0 +1,11 @@
+
+public class CalculosConMath {
+
+	public static void main(String[] args) {
+			int g=144;
+			double raiz=Math.sqrt(g);
+			
+			System.out.println(raiz);
+	}
+
+}

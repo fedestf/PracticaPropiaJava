@@ -1,0 +1,15 @@
+
+public class DeclaracionesOpeadores {
+
+	public static void main(String[] args) {
+		
+			int a=5; // double es para numero con coma
+			int b;
+			b=7;
+			
+			int c=b+a;
+			
+			System.out.println(c);
+	}
+
+}

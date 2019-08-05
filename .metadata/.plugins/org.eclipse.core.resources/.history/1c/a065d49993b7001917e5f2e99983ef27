@@ -1,0 +1,15 @@
+
+public class CalculosConMath {
+
+	public static void main(String[] args) {
+			int g=144;
+			double raiz=Math.sqrt(g); //sqrt para raiz
+			System.out.println(raiz);
+			// redondeo de un numero
+			
+			float a= 8.66F;
+			int resultado=Math.round(a);
+			System.out.println(resultado);
+	}
+
+}
