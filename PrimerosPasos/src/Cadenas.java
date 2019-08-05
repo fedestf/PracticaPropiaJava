@@ -14,8 +14,21 @@ public class Cadenas {
 		//ultima letra con cadena de x cantidad
 		int ultima_letra;
 		ultima_letra=nombre.length();
-		
 		System.out.println("la ultima letra es la "+ nombre.charAt(ultima_letra-1));
+		//metodo substring
+		String frase="Hoy es un estupendo dia para practicar Java";
+		String frase_resumen=frase.substring(4, 20);
+		System.out.println(frase_resumen);
+		//metodo equals
+		String alumno1,alumno2;
+		alumno1="Federico";
+		alumno2="federico";
+		
+		System.out.println(alumno1.equals(alumno2));
+		//equals que ignora las mayusculas o minusculas
+		System.out.println(alumno1.equalsIgnoreCase(alumno2));
 	}
+	
+	
 
 }
